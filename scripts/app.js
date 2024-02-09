@@ -9,7 +9,7 @@ const movieYearToDisplay = document.querySelector(".favoriteMovieYear");
 
 
 let titleInStorage = localStorage.getItem("title");
-let yearInStorage = localStorage.getItem("Year");
+let yearInStorage = localStorage.getItem("year");
 let imagerUrlInStorage = localStorage.getItem("imageUrl");
 
 if(titleInStorage && yearInStorage && imagerUrlInStorage) {
