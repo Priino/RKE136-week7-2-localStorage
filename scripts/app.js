@@ -12,7 +12,7 @@ let titleInStorage = localStorage.getItem("title");
 let yearInStorage = localStorage.getItem("Year");
 let imagerUrlInStorage = localStorage.getItem("imageUrl");
 
-if(titleInStorage && iearInStorage && imagerUrlInStorage) {
+if(titleInStorage && yearInStorage && imagerUrlInStorage) {
     movieTitleToDisplay.textContent = titleInStorage;
     movieYearToDisplay.textContent = yearInStorage;
     container.style.backgroundImage = `linear-gradient(rgba(51, 51, 82, 0.685), rgba(73, 49, 49, 0.582)), url('${imagerUrlInStorage}')`;
